@@ -1,0 +1,3 @@
+- docker build -t patrickmagalnsx/gitops:latest .
+- docker run --rm -p 4567:4567 patrickmagalnsx/gitops:latest
+- docker push  patrickmagalnsx/gitops:latest
