@@ -8,4 +8,4 @@ resources:
 images:
 - name: rubyserver
   newName: patrickmagalnsx/gitops
-  newTag: af96f337571b69b34e37d49b7b01ad7e554f279f
+  newTag: 872303a0e988c18a9ce7015a442f602c8711cd22
