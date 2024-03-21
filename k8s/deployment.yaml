@@ -1,0 +1,19 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rubyserver
+spec:
+  selector:
+    matchLabels:
+      app: rubyserver
+  template:
+    metadata:
+      labels:
+        app: rubyserver
+    spec:
+      containers:
+      - name: rubyserver
+        image: rubyserver
+        ports:
+        - containerPort: 4567
