@@ -16,6 +16,7 @@ jobs:
     - name: Build and push image to dockerhub
       uses: docker/build-push-action@v5
       with:
+        push: true
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
         repository: ${{ secrets.DOCKERHUB_USERNAME }}/gitops
